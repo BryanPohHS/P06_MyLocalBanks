@@ -85,17 +85,17 @@ public class MainActivity extends AppCompatActivity
     {
       if(mode == 1)
       {
-        Intent intentCall = new Intent(Intent.ACTION_DIAL, Uri.parse("tel:" + 180011111));
+        Intent intentCall = new Intent(Intent.ACTION_DIAL, Uri.parse("tel:18001111111"));
         startActivity(intentCall);
       }
       else if (mode == 2)
       {
-        Intent intentCall = new Intent(Intent.ACTION_DIAL, Uri.parse("tel:" + 123));
+        Intent intentCall = new Intent(Intent.ACTION_DIAL, Uri.parse("tel:18003633333"));
         startActivity(intentCall);
       }
       else
       {
-        Intent intentCall = new Intent(Intent.ACTION_DIAL, Uri.parse("tel:" + 333));
+        Intent intentCall = new Intent(Intent.ACTION_DIAL, Uri.parse("tel:18002222121"));
         startActivity(intentCall);
       }
       return true;
